@@ -1,0 +1,239 @@
+body {
+    background-color: rgb(245, 245, 241);
+    margin: 0;
+    font-family: 'Lausanne' ,Arial,sans-serif;
+    overflow-x: hidden;
+}
+
+.orderContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orderInfo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.orderInfo, .orderProduct, .ordersheader {
+    background-color: white;
+    border: .4px solid;
+    border-color: rgba(128, 128, 128, .2);
+    border-radius: 5px;
+    padding: 20px;
+    width: 50vw;
+}
+
+.orderProduct {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imgag {
+    width: 100px;
+    background-color: rgb(223, 226, 235);
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.innertext {
+    height: 100%;
+    display: grid;
+    align-self: center;
+}
+
+dd, dt {
+    margin: 0;
+    font-size: .8rem;
+    display: grid;
+    align-self: center;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    color: rgba(0, 0, 0, .5);
+}
+
+.recentorders {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 50%;
+    color: #002f30;
+}
+
+.h1recent {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.orderDetailsBtn {
+    background-color: #002f30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .05em;
+    cursor: pointer;
+}
+
+.done {
+    color: #2f7d39;
+    text-decoration: underline;
+}
+
+.ordersheader {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.greatingname {
+    color: #002f30;
+}
+
+.containerFooter {
+    background-color: #002f30;
+    padding: 40px;
+}
+
+.aglogo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.aglogowhite {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.agC {
+    font-size: .8em;
+}
+
+.agspan, .footerli {
+    color: white;
+}
+
+.footeraglogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactfooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containertextfooter {
+    border: solid 3px;
+    border-color: white;
+    padding: 10px;
+    font-size: .8rem;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.footerText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.footerli {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.footerul {
+    padding: 0;
+}
+
+.offerspan {
+    text-align: start;
+    width: 50%;
+}
+
+.contactInfo {
+    text-align: end;
+    margin-right: 20px;
+}
+
+.connect {
+    font-weight: bold;
+}
+
+.emailcontact {
+    padding: 15px;
+    width: 175px;
+    border: none;
+    border-radius: 50px;
+}
+
+.emailcontact[placeholder] {
+    font-size: .7em;
+}
+
+.recommended {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.agpouch {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.recimg {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 50px 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.recbtn {
+    font-size: .8em;
+    width: 49%;
+    padding: 10px 30px; 
+}
+
+.btncolor {
+    background-color: white;
+    color: #002f30;
+    border: 2px solid;
+    border-color: rgba(128, 128, 128, .2);
+    letter-spacing: normal;
+}
+
+.recli {
+    color: #002f30;
+}
